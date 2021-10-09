@@ -58,6 +58,10 @@
     
 
     
+    
+<div class="tocbot"></div>
+
+    
 
     <div class="article-entry" itemprop="articleBody">
       
@@ -112,6 +116,8 @@
     </div>
     <ul class="list-inline">
       <li>Hexo &copy; 2021</li>
+      
+        <li>ZHWANGART</li>
       
       <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
       <li>theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
@@ -199,6 +205,23 @@
 
 
 
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+  });
+</script>
 
 
 
